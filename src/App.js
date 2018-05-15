@@ -13,7 +13,7 @@ class App extends Component {
 
   handleOnClickUsers() {
     this.props.store.dispatch({
-      type: 'GET_COUNT_OF_USERS',
+      type: 'GET_COUNT_OF_USERS', 
     });
   }
 
